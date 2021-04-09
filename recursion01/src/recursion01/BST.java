@@ -112,20 +112,22 @@ public class BST <E>{
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		BST <Integer> t = new 	BST <Integer>();
-		t.add(3);
-		t.add(15);
-		t.add(4);
-		t.add(8);
+		t.add(30);
+		t.add(17);
+		t.add(28);
+		t.add(50);
+		t.add(90);
+		t.add(40);
+		t.add(12);
+		t.add(6);
 		t.add(10);
-		t.add(9);
-		t.add(20);
-		t.add(45);
+		t.add(15);
 		t.display();
-		System.out.println();
-		t.remove(15);
-		t.display();
-		System.out.println();
-		t.finx(45);
+//		System.out.println();
+//		t.remove(15);
+//		t.display();
+//		System.out.println();
+//		t.finx(45);
 		// kiem tra cay BST --> co the kiemtra
 	}
 

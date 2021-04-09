@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Fraction {
 
-	private int tu;
-	private int mau;
+	public int tu;
+	public int mau;
 	public Fraction()
 	{
 		mau=tu=0;
@@ -42,9 +42,9 @@ public class Fraction {
 	public void output() {
 		System.out.println(this.tu+"/"+this.mau);
 	}
-	public String toString() {
-		return "Phan Tu: "+tu + "   " +  "Phan Mau:" + mau;
-	}
+//	public String toString() {
+//		return "Phan Tu: "+tu + "   " +  "Phan Mau:" + mau;
+//	}
 	// congps
 	public Fraction plus(Fraction ps)
 	{
@@ -94,9 +94,9 @@ public class Fraction {
 		System.out.println("====Cong hai phan so=====");
 		Fraction ps = new Fraction();
 		ps=fr.plus(fr1);
-		ps.output();
 		
-		System.out.println(ps.divide());
+		
+		System.out.println(ps.tu +" " + ps.mau);
 		
 	}
 
